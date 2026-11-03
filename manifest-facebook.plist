@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://github.com/nguyenthithao90ak-oss/locket-gold-ota/releases/download/v2.71.1/FacebookMod_v570.0_VH08.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>url</key>
+					<string>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/32/44/0f3244b3-78c2-3b68-2d74-96cf55eb0837/Icon-Production-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>url</key>
+					<string>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/32/44/0f3244b3-78c2-3b68-2d74-96cf55eb0837/Icon-Production-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.facebook.Facebook.vh08</string>
+				<key>bundle-version</key>
+				<string>570.0.0</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>Facebook VH08 (Việt Hoàng 08 Crack)</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
