@@ -4,14 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>👑 VIỆT HOÀNG 08 CRACK — Kho App VIP & MMO 100% Miễn Phí</title>
-  <meta name="description" content="Kho ứng dụng đã bẻ khóa VIP, không quảng cáo, mở khóa Pro và công cụ MMO độc quyền của Việt Hoàng 08. Chứng chỉ Apple 1 năm, cài trực tiếp qua Safari." />
+  <meta name="description" content="Kho 15 ứng dụng đã bẻ khóa VIP, không quảng cáo, mở khóa Pro và công cụ MMO độc quyền của Việt Hoàng 08. Chứng chỉ Apple 1 năm, cài trực tiếp qua Safari." />
   <style>
     :root {
       --primary-gold: #ffb800;
       --secondary-gold: #ff8800;
       --gold-glow: rgba(255, 184, 0, 0.4);
       --bg-dark: #09090e;
-      --card-bg: rgba(20, 20, 28, 0.75);
+      --card-bg: rgba(20, 20, 28, 0.78);
       --card-border: rgba(255, 255, 255, 0.08);
       --text-muted: #94a3b8;
     }
@@ -23,13 +23,13 @@
       padding: 16px 12px 60px;
     }
     .container {
-      max-width: 500px;
+      max-width: 520px;
       margin: 0 auto;
     }
     /* HEADER */
     .header {
       text-align: center;
-      margin-bottom: 20px;
+      margin-bottom: 18px;
       padding-top: 10px;
     }
     .brand-badge {
@@ -74,8 +74,38 @@
       color: #4ade80;
       font-size: 12px;
       font-weight: 800;
-      padding: 4px 12px;
+      padding: 4px 14px;
       border-radius: 20px;
+    }
+
+    /* SEARCH BAR */
+    .search-box {
+      position: relative;
+      margin-bottom: 14px;
+    }
+    .search-input {
+      width: 100%;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 14px;
+      padding: 12px 16px 12px 42px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .search-input:focus {
+      border-color: #ffb800;
+      background: rgba(255, 255, 255, 0.08);
+    }
+    .search-icon {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 16px;
+      opacity: 0.6;
     }
 
     /* TABS */
@@ -140,13 +170,14 @@
       object-fit: cover;
       box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
       display: block;
+      background: #111;
     }
     .app-details {
       flex: 1;
       min-width: 0;
     }
     .app-title {
-      font-size: 18px;
+      font-size: 17.5px;
       font-weight: 800;
       color: #fff;
       display: flex;
@@ -175,6 +206,8 @@
     .tag-blue { background: rgba(56, 189, 248, 0.18); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.4); }
     .tag-red  { background: rgba(248, 113, 113, 0.18); color: #f87171; border: 1px solid rgba(248, 113, 113, 0.4); }
     .tag-purple { background: rgba(192, 132, 252, 0.18); color: #c084fc; border: 1px solid rgba(192, 132, 252, 0.4); }
+    .tag-green  { background: rgba(34, 197, 94, 0.18); color: #4ade80; border: 1px solid rgba(34, 197, 94, 0.4); }
+    .tag-orange { background: rgba(251, 146, 60, 0.18); color: #fb923c; border: 1px solid rgba(251, 146, 60, 0.4); }
 
     .app-desc {
       color: var(--text-muted);
@@ -237,6 +270,11 @@
       color: #fff;
       box-shadow: 0 4px 15px rgba(249, 115, 22, 0.35);
     }
+    .btn-dark {
+      background: linear-gradient(135deg, #334155, #1e293b);
+      color: #fff;
+      box-shadow: 0 4px 15px rgba(30, 41, 59, 0.35);
+    }
     .btn-ipa {
       flex: 0 0 auto;
       padding: 12px 14px;
@@ -290,31 +328,37 @@
       <div class="brand-badge">👑 VIỆT HOÀNG 08 CRACK 👑</div>
       <h1>KHO APP VIP & MMO PRO</h1>
       <p>Ký chứng chỉ Apple 1 năm • Cài 1 chạm trực tiếp trên Safari</p>
-      <div class="free-pill">🎁 100% HOÀN TOÀN MIỄN PHÍ • KHÔNG GIỚI HẠN</div>
+      <div class="free-pill">🎁 100% HOÀN TOÀN MIỄN PHÍ • 15 ỨNG DỤNG VIP</div>
+    </div>
+
+    <!-- SEARCH BAR -->
+    <div class="search-box">
+      <span class="search-icon">🔍</span>
+      <input type="text" class="search-input" id="searchApp" placeholder="Tìm kiếm ứng dụng (Locket, YouTube, TikTok, Facebook...)" oninput="searchApps()" />
     </div>
 
     <!-- CATEGORY TABS -->
     <div class="tab-bar">
-      <button class="tab-btn active" onclick="filterApp('all', this)">⚡ Tất Cả (10 App)</button>
-      <button class="tab-btn" onclick="filterApp('media', this)">🎬 Giải Trí & MXH</button>
+      <button class="tab-btn active" onclick="filterApp('all', this)">⚡ Tất Cả (15 App)</button>
+      <button class="tab-btn" onclick="filterApp('mxh', this)">🎬 MXH & Giải Trí</button>
       <button class="tab-btn" onclick="filterApp('edit', this)">🎨 Sáng Tạo & Edit</button>
       <button class="tab-btn" onclick="filterApp('mmo', this)">💼 Công Cụ MMO VIP</button>
     </div>
 
-    <!-- 1. LOCKET GOLD -->
-    <div class="app-card" data-cat="media">
+    <!-- APPS LIST -->
+    <div id="appList">
+      
+    <div class="app-card" data-cat="mxh">
       <div class="app-card-header">
         <div class="app-icon-wrap">
-          <img class="app-icon" src="https://raw.githubusercontent.com/Xwuan19/Locket-IPA/main/Locket%20Icon.png" alt="Locket Gold" />
+          <img class="app-icon" src="https://raw.githubusercontent.com/Xwuan19/Locket-IPA/main/Locket%20Icon.png" alt="💛 Locket Gold VIP" loading="lazy" />
         </div>
         <div class="app-details">
           <div class="app-title">💛 Locket Gold VIP</div>
           <div class="app-tags">
-            <span class="tag tag-free">Miễn Phí</span>
-            <span class="tag tag-gold">v2.71.1 Mới Nhất</span>
-            <span class="tag tag-blue">Login Fix</span>
+            <span class="tag tag-free">Miễn Phí</span><span class="tag tag-gold">v2.71.1 Mới Nhất</span><span class="tag tag-blue">Login Fix</span>
           </div>
-          <div class="app-desc">Mở khóa sẵn Locket Gold • Đăng video dài • Tích hợp fix lỗi đăng nhập</div>
+          <div class="app-desc">Mở khóa Locket Gold VIP trọn đời • Đăng video dài không giới hạn • Đã tích hợp fix lỗi đăng nhập.</div>
         </div>
       </div>
       <div class="app-actions">
@@ -323,20 +367,17 @@
       </div>
     </div>
 
-    <!-- 2. YOUTUBE PLUS -->
-    <div class="app-card" data-cat="media">
+    <div class="app-card" data-cat="mxh">
       <div class="app-card-header">
         <div class="app-icon-wrap">
-          <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/03/92/f703923e-2d1c-6a21-d551-99e028a212e9/logo_youtube_2024_q4_color-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220-0.png/512x512bb.jpg" alt="YouTube Plus" />
+          <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/03/92/f703923e-2d1c-6a21-d551-99e028a212e9/logo_youtube_2024_q4_color-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220-0.png/512x512bb.jpg" alt="❤️ YouTube Plus (Không QC)" loading="lazy" />
         </div>
         <div class="app-details">
           <div class="app-title">❤️ YouTube Plus (Không QC)</div>
           <div class="app-tags">
-            <span class="tag tag-free">Miễn Phí</span>
-            <span class="tag tag-red">YTLitePlus 6.0</span>
-            <span class="tag tag-gold">Chặn QC 100%</span>
+            <span class="tag tag-free">Miễn Phí</span><span class="tag tag-red">YTLitePlus 6.0</span><span class="tag tag-gold">Chặn QC 100%</span>
           </div>
-          <div class="app-desc">Tắt màn hình vẫn nghe nhạc • PiP thu nhỏ • Tải nhạc video • Bỏ qua đoạn tài trợ</div>
+          <div class="app-desc">Tắt màn hình vẫn nghe nhạc • PiP thu nhỏ góc màn hình • Tải video & nhạc MP3 • Tự bỏ qua đoạn quảng cáo tài trợ.</div>
         </div>
       </div>
       <div class="app-actions">
@@ -345,20 +386,17 @@
       </div>
     </div>
 
-    <!-- 3. TIKTOK PLUS -->
-    <div class="app-card" data-cat="media">
+    <div class="app-card" data-cat="mxh">
       <div class="app-card-header">
         <div class="app-icon-wrap">
-          <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d3/68/74/d36874b6-70e2-d5e5-7209-f225c163eb7e/AppIcon_TikTok-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg" alt="TikTok Plus" />
+          <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d3/68/74/d36874b6-70e2-d5e5-7209-f225c163eb7e/AppIcon_TikTok-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg" alt="🩵 TikTok Plus (Không QC)" loading="lazy" />
         </div>
         <div class="app-details">
           <div class="app-title">🩵 TikTok Plus (Không QC)</div>
           <div class="app-tags">
-            <span class="tag tag-free">Miễn Phí</span>
-            <span class="tag tag-blue">BHTikTok 2.3.1</span>
-            <span class="tag tag-gold">Tải No Watermark</span>
+            <span class="tag tag-free">Miễn Phí</span><span class="tag tag-blue">BHTikTok 2.3.1</span><span class="tag tag-gold">Tải No Watermark</span>
           </div>
-          <div class="app-desc">Tải video không logo/watermark • Đổi quốc gia xem xu hướng thế giới • Tự động cuộn</div>
+          <div class="app-desc">Tải mọi video không dính logo watermark • Đổi vùng quốc gia xem xu hướng quốc tế • Tự động lướt video rảnh tay.</div>
         </div>
       </div>
       <div class="app-actions">
@@ -367,20 +405,17 @@
       </div>
     </div>
 
-    <!-- 4. SPOTIFY PREMIUM -->
-    <div class="app-card" data-cat="media">
+    <div class="app-card" data-cat="mxh">
       <div class="app-card-header">
         <div class="app-icon-wrap">
-          <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/36/f2/0b36f28a-8150-f932-72d6-2f5a608dc530/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.jpg" alt="Spotify Premium" />
+          <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/36/f2/0b36f28a-8150-f932-72d6-2f5a608dc530/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.jpg" alt="💚 Spotify Premium VIP" loading="lazy" />
         </div>
         <div class="app-details">
           <div class="app-title">💚 Spotify Premium VIP</div>
           <div class="app-tags">
-            <span class="tag tag-free">Miễn Phí</span>
-            <span class="tag tag-green">Full Premium</span>
-            <span class="tag tag-gold">Âm Thanh Cực Cao</span>
+            <span class="tag tag-free">Miễn Phí</span><span class="tag tag-green">Full Premium</span><span class="tag tag-gold">Âm Thanh Cực Cao</span>
           </div>
-          <div class="app-desc">Chặn quảng cáo âm thanh • Chọn bài tùy thích • Next bài vô hạn • Hiển thị lời bài hát</div>
+          <div class="app-desc">Chặn 100% quảng cáo âm thanh • Chọn bài nghe tùy ý không bị xáo trộn • Next bài vô hạn • Hiển thị lời bài hát.</div>
         </div>
       </div>
       <div class="app-actions">
@@ -389,20 +424,17 @@
       </div>
     </div>
 
-    <!-- 5. CAPCUT PRO -->
     <div class="app-card" data-cat="edit">
       <div class="app-card-header">
         <div class="app-icon-wrap">
-          <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/90/92/20909250-71f7-6278-2593-e7829e65cb29/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.jpg" alt="CapCut Pro" />
+          <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/90/92/20909250-71f7-6278-2593-e7829e65cb29/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.jpg" alt="💜 CapCut Pro VIP" loading="lazy" />
         </div>
         <div class="app-details">
           <div class="app-title">💜 CapCut Pro VIP</div>
           <div class="app-tags">
-            <span class="tag tag-free">Miễn Phí</span>
-            <span class="tag tag-purple">Mở Khóa Pro</span>
-            <span class="tag tag-gold">Xuất 4K Không Logo</span>
+            <span class="tag tag-free">Miễn Phí</span><span class="tag tag-purple">Mở Khóa Pro</span><span class="tag tag-gold">Xuất 4K Không Logo</span>
           </div>
-          <div class="app-desc">Mở khóa full tính năng, filter, effect VIP • Xuất video chuẩn 4K 60fps không dính logo</div>
+          <div class="app-desc">Mở khóa toàn bộ hiệu ứng, bộ lọc, font chữ Pro • Xuất video chuẩn 4K 60fps không dính logo • Không quảng cáo.</div>
         </div>
       </div>
       <div class="app-actions">
@@ -411,20 +443,17 @@
       </div>
     </div>
 
-    <!-- 6. FACEBOOK MOD -->
     <div class="app-card" data-cat="mmo">
       <div class="app-card-header">
         <div class="app-icon-wrap">
-          <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/32/44/0f3244b3-78c2-3b68-2d74-96cf55eb0837/Icon-Production-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg" alt="Facebook Mod" />
+          <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/32/44/0f3244b3-78c2-3b68-2d74-96cf55eb0837/Icon-Production-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg" alt="💙 Facebook Mod MMO VIP" loading="lazy" />
         </div>
         <div class="app-details">
           <div class="app-title">💙 Facebook Mod MMO VIP</div>
           <div class="app-tags">
-            <span class="tag tag-free">Miễn Phí</span>
-            <span class="tag tag-blue">Tải Reels 1 Chạm</span>
-            <span class="tag tag-gold">Chặn QC Sponsored</span>
+            <span class="tag tag-free">Miễn Phí</span><span class="tag tag-blue">Tải Reels 1 Chạm</span><span class="tag tag-gold">Chặn QC Sponsored</span>
           </div>
-          <div class="app-desc">Tải trực tiếp video Reels/Story về máy • Ẩn bài viết quảng cáo • Hỗ trợ cào video MMO</div>
+          <div class="app-desc">Tải video Reels & Story trực tiếp về thư viện ảnh • Ẩn toàn bộ bài viết tài trợ quảng cáo • Phục vụ cào nội dung MMO.</div>
         </div>
       </div>
       <div class="app-actions">
@@ -433,20 +462,55 @@
       </div>
     </div>
 
-    <!-- 7. INSTAGRAM PLUS -->
-    <div class="app-card" data-cat="media">
+    <div class="app-card" data-cat="mxh">
       <div class="app-card-header">
         <div class="app-icon-wrap">
-          <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/85/2b/93/852b9377-f6c5-942c-7d83-37b789a0c857/Prod-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg" alt="Instagram Plus" />
+          <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/20/4f/bf204f14-bf14-e0b7-c81b-5264b3ef8da6/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg" alt="💬 Messenger Mod VIP" loading="lazy" />
+        </div>
+        <div class="app-details">
+          <div class="app-title">💬 Messenger Mod VIP</div>
+          <div class="app-tags">
+            <span class="tag tag-free">Miễn Phí</span><span class="tag tag-blue">Xem Tin Nhắn Gỡ</span><span class="tag tag-purple">Ẩn Đã Đọc / Online</span>
+          </div>
+          <div class="app-desc">Xem tin nhắn đối phương đã thu hồi • Ẩn trạng thái đang gõ, ẩn đã xem, ẩn online • Tải ảnh & video chất lượng cao.</div>
+        </div>
+      </div>
+      <div class="app-actions">
+        <a class="btn btn-blue" href="itms-services://?action=download-manifest&url=https%3A%2F%2Fnguyenthithao90ak-oss.github.io%2Flocket-gold-ota%2Fmanifest-messenger.plist">📲 Cài Đặt Ngay</a>
+        <a class="btn btn-ipa" href="https://github.com/nguyenthithao90ak-oss/locket-gold-ota/releases/download/v2.71.1/MessengerMod_v582.0_VH08.ipa">⬇️ .IPA</a>
+      </div>
+    </div>
+
+    <div class="app-card" data-cat="mxh">
+      <div class="app-card-header">
+        <div class="app-icon-wrap">
+          <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/88/5a/18885ad6-b328-98e9-e337-b952f4c7d03a/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg" alt="🖤 X / Twitter Plus" loading="lazy" />
+        </div>
+        <div class="app-details">
+          <div class="app-title">🖤 X / Twitter Plus</div>
+          <div class="app-tags">
+            <span class="tag tag-free">Miễn Phí</span><span class="tag tag-gold">Tải Video Full HD</span><span class="tag tag-blue">Chặn Bài Đăng QC</span>
+          </div>
+          <div class="app-desc">Tải video và GIF chất lượng cao chỉ với 1 chạm • Ẩn toàn bộ bài viết quảng cáo & bài promoted trên bảng tin X.</div>
+        </div>
+      </div>
+      <div class="app-actions">
+        <a class="btn btn-dark" href="itms-services://?action=download-manifest&url=https%3A%2F%2Fnguyenthithao90ak-oss.github.io%2Flocket-gold-ota%2Fmanifest-x.plist">📲 Cài Đặt Ngay</a>
+        <a class="btn btn-ipa" href="https://github.com/nguyenthithao90ak-oss/locket-gold-ota/releases/download/v2.71.1/XPlus_v12.37_VH08.ipa">⬇️ .IPA</a>
+      </div>
+    </div>
+
+    <div class="app-card" data-cat="mxh">
+      <div class="app-card-header">
+        <div class="app-icon-wrap">
+          <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/85/2b/93/852b9377-f6c5-942c-7d83-37b789a0c857/Prod-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg" alt="💖 Instagram Plus" loading="lazy" />
         </div>
         <div class="app-details">
           <div class="app-title">💖 Instagram Plus</div>
           <div class="app-tags">
-            <span class="tag tag-free">Miễn Phí</span>
-            <span class="tag tag-purple">Tải Story/Reels</span>
-            <span class="tag tag-blue">Ẩn Đã Xem</span>
+            <span class="tag tag-free">Miễn Phí</span><span class="tag tag-purple">Tải Story/Reels</span><span class="tag tag-blue">Ẩn Đã Xem</span>
           </div>
-          <div class="app-desc">Tải ảnh/video chất lượng cao gốc • Xem tin nhắn và Story ẩn danh không hiện đã xem</div>
+          <div class="app-desc">Tải ảnh, video Reels & Story chất lượng gốc • Xem tin nhắn và xem Story ẩn danh mà không bị hiện đã xem.</div>
         </div>
       </div>
       <div class="app-actions">
@@ -455,20 +519,17 @@
       </div>
     </div>
 
-    <!-- 8. LIGHTROOM PRO -->
     <div class="app-card" data-cat="edit">
       <div class="app-card-header">
         <div class="app-icon-wrap">
-          <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/02/12/9a021226-c192-9232-7892-1a8584bc2a52/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg" alt="Lightroom Pro" />
+          <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/02/12/9a021226-c192-9232-7892-1a8584bc2a52/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg" alt="🧡 Lightroom Pro VIP" loading="lazy" />
         </div>
         <div class="app-details">
           <div class="app-title">🧡 Lightroom Pro VIP</div>
           <div class="app-tags">
-            <span class="tag tag-free">Miễn Phí</span>
-            <span class="tag tag-orange">Mở Khóa Premium</span>
-            <span class="tag tag-gold">Màu & Preset VIP</span>
+            <span class="tag tag-free">Miễn Phí</span><span class="tag tag-orange">Mở Khóa Premium</span><span class="tag tag-gold">Preset Màu VIP</span>
           </div>
-          <div class="app-desc">Mở khóa tính năng chỉnh màu nâng cao, xóa vật thể, lưu và áp công thức màu đẹp</div>
+          <div class="app-desc">Mở khóa công cụ chỉnh màu chuyên nghiệp, xóa vật thể AI, chỉnh sửa hình học RAW và kho preset màu đỉnh cao.</div>
         </div>
       </div>
       <div class="app-actions">
@@ -477,20 +538,55 @@
       </div>
     </div>
 
-    <!-- 9. SHADOWROCKET PROXY -->
+    <div class="app-card" data-cat="edit">
+      <div class="app-card-header">
+        <div class="app-icon-wrap">
+          <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/23/e8/e523e80f-fe5b-beba-449e-1087e8e7c10b/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.jpg" alt="🌸 B612 VIP Camera Pro" loading="lazy" />
+        </div>
+        <div class="app-details">
+          <div class="app-title">🌸 B612 VIP Camera Pro</div>
+          <div class="app-tags">
+            <span class="tag tag-free">Miễn Phí</span><span class="tag tag-purple">Full Filter VIP</span><span class="tag tag-gold">Chụp Mẫu Bán Hàng</span>
+          </div>
+          <div class="app-desc">Mở khóa toàn bộ hiệu ứng làm đẹp, trang điểm tự nhiên, chỉnh thon gọn khuôn mặt và filter màu sắc bán hàng đẹp lung linh.</div>
+        </div>
+      </div>
+      <div class="app-actions">
+        <a class="btn btn-cyan" href="itms-services://?action=download-manifest&url=https%3A%2F%2Fnguyenthithao90ak-oss.github.io%2Flocket-gold-ota%2Fmanifest-b612.plist">📲 Cài Đặt Ngay</a>
+        <a class="btn btn-ipa" href="https://github.com/nguyenthithao90ak-oss/locket-gold-ota/releases/download/v2.71.1/B612VIP_v15.4.6_VH08.ipa">⬇️ .IPA</a>
+      </div>
+    </div>
+
+    <div class="app-card" data-cat="mxh">
+      <div class="app-card-header">
+        <div class="app-icon-wrap">
+          <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/59/2e/cb592e39-165c-6b30-c3d5-67a840e69a03/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.jpg" alt="🦉 Duolingo Super VIP" loading="lazy" />
+        </div>
+        <div class="app-details">
+          <div class="app-title">🦉 Duolingo Super VIP</div>
+          <div class="app-tags">
+            <span class="tag tag-free">Miễn Phí</span><span class="tag tag-green">Super Trọn Đời</span><span class="tag tag-gold">Vô Hạn Tim</span>
+          </div>
+          <div class="app-desc">Mở khóa Super Duolingo trọn đời • Học ngoại ngữ không giới hạn lượt tim sai • Không quảng cáo phiền toái • Luyện phát âm AI.</div>
+        </div>
+      </div>
+      <div class="app-actions">
+        <a class="btn btn-green" href="itms-services://?action=download-manifest&url=https%3A%2F%2Fnguyenthithao90ak-oss.github.io%2Flocket-gold-ota%2Fmanifest-duolingo.plist">📲 Cài Đặt Ngay</a>
+        <a class="btn btn-ipa" href="https://github.com/nguyenthithao90ak-oss/locket-gold-ota/releases/download/v2.71.1/DuolingoSuper_v7.142_VH08.ipa">⬇️ .IPA</a>
+      </div>
+    </div>
+
     <div class="app-card" data-cat="mmo">
       <div class="app-card-header">
         <div class="app-icon-wrap">
-          <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1c/7b/5c/1c7b5c1b-3a95-0327-796e-c9d53e0bd1c0/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.jpg" alt="Shadowrocket" />
+          <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1c/7b/5c/1c7b5c1b-3a95-0327-796e-c9d53e0bd1c0/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.jpg" alt="🛡️ Shadowrocket MMO (Proxy)" loading="lazy" />
         </div>
         <div class="app-details">
           <div class="app-title">🛡️ Shadowrocket MMO (Proxy)</div>
           <div class="app-tags">
-            <span class="tag tag-free">Miễn Phí</span>
-            <span class="tag tag-blue">Đổi IP/Proxy</span>
-            <span class="tag tag-gold">Nuôi Nick MMO</span>
+            <span class="tag tag-free">Miễn Phí</span><span class="tag tag-blue">Đổi IP/Proxy</span><span class="tag tag-gold">Nuôi Nick MMO</span>
           </div>
-          <div class="app-desc">App \$2.99 trên App Store • Gắn Proxy Socks5, HTTP, Shadowsocks nuôi nick an toàn</div>
+          <div class="app-desc">App trị giá $2.99 trên App Store • Gắn Proxy Dân cư SOCKS5/HTTP để fake IP, nuôi nick Facebook/TikTok an toàn chống checkpoint.</div>
         </div>
       </div>
       <div class="app-actions">
@@ -499,26 +595,43 @@
       </div>
     </div>
 
-    <!-- 10. FEATHER SIGNER -->
     <div class="app-card" data-cat="mmo">
       <div class="app-card-header">
         <div class="app-icon-wrap">
-          <img class="app-icon" src="https://raw.githubusercontent.com/claration/feather/main/iOS/Resources/Assets.xcassets/AppIcon.appiconset/icon_1024x1024.png" alt="Feather Signer" />
+          <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/9b/64/4d9b6468-07e3-0cba-ffec-88c9bb7591db/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.jpg" alt="🚀 Loon Proxy MMO Pro" loading="lazy" />
+        </div>
+        <div class="app-details">
+          <div class="app-title">🚀 Loon Proxy MMO Pro</div>
+          <div class="app-tags">
+            <span class="tag tag-free">Miễn Phí</span><span class="tag tag-orange">Trị Giá $5.99</span><span class="tag tag-gold">Script & MITM</span>
+          </div>
+          <div class="app-desc">Công cụ quản lý proxy mạng cao cấp trị giá $5.99 • Hỗ trợ Rule-based routing, giải mã MITM, chạy plugin script tự động hóa MMO.</div>
+        </div>
+      </div>
+      <div class="app-actions">
+        <a class="btn btn-orange" href="itms-services://?action=download-manifest&url=https%3A%2F%2Fnguyenthithao90ak-oss.github.io%2Flocket-gold-ota%2Fmanifest-loon.plist">📲 Cài Đặt Ngay</a>
+        <a class="btn btn-ipa" href="https://github.com/nguyenthithao90ak-oss/locket-gold-ota/releases/download/v2.71.1/LoonProxy_v3.5.2_VH08.ipa">⬇️ .IPA</a>
+      </div>
+    </div>
+
+    <div class="app-card" data-cat="mmo">
+      <div class="app-card-header">
+        <div class="app-icon-wrap">
+          <img class="app-icon" src="https://raw.githubusercontent.com/claration/feather/main/iOS/Resources/Assets.xcassets/AppIcon.appiconset/icon_1024x1024.png" alt="🪶 Feather Signer (Tự Ký App)" loading="lazy" />
         </div>
         <div class="app-details">
           <div class="app-title">🪶 Feather Signer (Tự Ký App)</div>
           <div class="app-tags">
-            <span class="tag tag-free">Miễn Phí</span>
-            <span class="tag tag-purple">Ký Trực Tiếp Trên iPhone</span>
-            <span class="tag tag-gold">Không Cần PC</span>
+            <span class="tag tag-free">Miễn Phí</span><span class="tag tag-purple">Tự Ký Trên iPhone</span><span class="tag tag-gold">Không Cần PC</span>
           </div>
-          <div class="app-desc">Nhập file .p12 của sếp vào là tự ký và cài bất kỳ app mod nào từ Safari ngay trên điện thoại</div>
+          <div class="app-desc">Trình tự ký file .IPA trực tiếp trên iPhone mã nguồn mở đỉnh nhất • Nhập chứng chỉ p12 của sếp vào là tự cài mọi game hack/app mod.</div>
         </div>
       </div>
       <div class="app-actions">
         <a class="btn btn-purple" href="itms-services://?action=download-manifest&url=https%3A%2F%2Fnguyenthithao90ak-oss.github.io%2Flocket-gold-ota%2Fmanifest-feather.plist">📲 Cài Đặt Ngay</a>
         <a class="btn btn-ipa" href="https://github.com/nguyenthithao90ak-oss/locket-gold-ota/releases/download/v2.71.1/Feather_v2.9.0_VH08.ipa">⬇️ .IPA</a>
       </div>
+    </div>
     </div>
 
     <!-- HƯỚNG DẪN CÀI ĐẶT -->
@@ -527,7 +640,7 @@
       1. Bắt buộc mở link này bằng trình duyệt <b>Safari</b> trên iPhone.<br/>
       2. Bấm <b>"Cài Đặt Ngay"</b> tại ứng dụng muốn cài &rarr; Chọn <b>"Cài đặt" (Install)</b>.<br/>
       3. Ra màn hình chính đợi ứng dụng tải về xong.<br/>
-      4. Tất cả 10 ứng dụng đều được tách riêng ID độc lập, sếp có thể cài cùng lúc cả 10 ứng dụng song song với app gốc trên App Store.<br/>
+      4. Tất cả 15 ứng dụng đều được tách riêng ID độc lập (`.vh08`), sếp có thể cài cùng lúc cả 15 ứng dụng song song với app gốc trên App Store.<br/>
       5. Nếu máy báo lỗi nhà phát triển chưa tin cậy hoặc chưa có UDID: Vào <a class="udid-btn" href="https://udid.tech" target="_blank">udid.tech</a> lấy mã UDID gửi cho <b>Việt Hoàng 08</b> để kích hoạt trong 30 giây!
     </div>
 
@@ -539,12 +652,28 @@
   </div>
 
   <script>
+    let currentCat = 'all';
+
     function filterApp(cat, btn) {
+      currentCat = cat;
       document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
+      applyFilters();
+    }
+
+    function searchApps() {
+      applyFilters();
+    }
+
+    function applyFilters() {
+      const query = document.getElementById('searchApp').value.toLowerCase().trim();
       const cards = document.querySelectorAll('.app-card');
       cards.forEach(card => {
-        if (cat === 'all' || card.getAttribute('data-cat') === cat) {
+        const cat = card.getAttribute('data-cat');
+        const text = card.innerText.toLowerCase();
+        const matchesCat = (currentCat === 'all' || cat === currentCat);
+        const matchesQuery = (query === '' || text.includes(query));
+        if (matchesCat && matchesQuery) {
           card.style.display = 'block';
         } else {
           card.style.display = 'none';
